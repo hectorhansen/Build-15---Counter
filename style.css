@@ -1,0 +1,67 @@
+*{
+    font-family: 'IBM Plex Mono', monospace;
+    color: gray;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    width: 100%;    
+    margin-top: 15px;
+    
+}
+
+#value{
+    font-size:15rem;
+    margin-top: -55px;
+
+}
+
+h1{
+    font-size:5rem;
+}
+
+.button-container{
+    display: flex;
+    gap:15px;
+}
+
+.btn{
+    padding:15px;
+    font-size:1.5rem;
+    border-radius:0.5rem;
+    color:#000;
+    border:1px solid #ccc;
+}
+
+.increase:hover{
+    color:#fff;
+    background-color:green;
+    cursor:pointer;
+}
+
+.decrease:hover{
+    color:#fff;
+    background-color:red;
+    cursor:pointer;
+}
+
+.reset:hover{
+    color:#fff;
+    background-color:gray;
+    cursor:pointer;
+}
+
+.random:hover{
+    color:#fff;
+    background-color:blue;
+    cursor:pointer;
+}
+
+.random{
+    margin-top:15px;
+    width:400px;
+}
